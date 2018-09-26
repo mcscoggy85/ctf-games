@@ -1,0 +1,6 @@
+1 cat data.txt
+2 grab contents
+3 There was not an available binary on the server to run a rot13 decode like we did with base64.
+4 rot13.com
+5 contents of data.txt === The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+6 flag === 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu

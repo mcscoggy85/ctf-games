@@ -1,0 +1,19 @@
+1 cat data.txt
+
+Here the output looked like a binary file or data file
+
+2 file data.txt
+
+Output was data so this was a correct assumption
+
+3 strings data.txt
+
+Lets see what we can get from a first glance
+
+4 strings data.txt | grep -P ^=
+
+5 contents of "strings data.txt | grep -P ^=" === truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+
+6 flag === truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+
+

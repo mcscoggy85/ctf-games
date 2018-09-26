@@ -1,0 +1,4 @@
+#!/bin/bash
+read -p 'What level did you just finish ' prevlevel
+read -p 'What level are you logging into? ' level
+sshpass -f ~/wargames/bandit/level-"${prevlevel}"/flag ssh -p 2220 bandit"${level}"@bandit.labs.overthewire.org

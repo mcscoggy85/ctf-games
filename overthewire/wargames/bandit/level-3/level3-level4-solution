@@ -1,0 +1,6 @@
+1  ls
+2  cd inhere/
+3  ll
+4  ls
+5  ls -alh
+6  cat .hidden

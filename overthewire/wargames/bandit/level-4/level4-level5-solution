@@ -1,0 +1,8 @@
+1  ls
+2  cd inhere/
+3  ls
+4  files=$(ls)
+5  for i in $files; do file ./$i; done
+6  cat ./-file07
+7  contents of -file07 === koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+8  flag === koReBOKuIDDepwhWk7jZC0RTdopnAYKh

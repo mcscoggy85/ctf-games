@@ -1,0 +1,8 @@
+1  ls
+2  ls -l
+3  cat /etc/passwd | grep bandit6
+4  cat /etc/passwd | grep bandit7
+5  find / -gid 11006 -uid 11007 -type f -size 33c -readable
+6  cat /var/lib/dpkg/info/bandit7.password
+7  contents of /var/lib/dpkg/info/bandit7.password === HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+8  flag === HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs

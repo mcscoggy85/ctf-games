@@ -1,0 +1,6 @@
+1 ls
+2 file data.txt
+3 cat data.txt
+4 base64 -d data.txt
+5 contents of "base64 -d data.txt" === IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+6 flag === IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR

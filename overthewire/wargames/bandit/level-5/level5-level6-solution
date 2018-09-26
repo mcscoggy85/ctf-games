@@ -1,0 +1,7 @@
+1 ls
+2 cd inhere/
+3 ls
+4 find . -size 1033c -type f -readable
+5 cat ./maybehere07/.file2
+6 contents of ./maybehere07/.file2 === DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+7 flag === DXjZPULLxYr17uwoI01bNLQbtFemEgo7 

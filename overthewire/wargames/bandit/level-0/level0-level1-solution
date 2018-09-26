@@ -1,0 +1,6 @@
+1 alias ll='ls -alh;
+2 alias ll='ls -alh'
+3 ll
+4 cat readme
+5 contents of readme === boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+6 flag === boJ9jbbUNNfktd78OOpsqOltutMc3MY1 

@@ -1,0 +1,11 @@
+1 cat data.txt | sort | uniq -c -u
+
+*** Note in John's (John Hammond) example on YouTube he uses a third pipe, this is not wrong. 
+    Just different.I used the -u with uniq to get the uniq key that rested in the middle of the 
+    other keys that occur multiple times. It was just something I tried from reading the man page. 
+    Man pages are your friend ***
+
+2 contents of the command "cat data.txt | sort | uniq -c -u" === UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+3 flag === UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
+
