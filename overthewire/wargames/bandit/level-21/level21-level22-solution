@@ -1,0 +1,8 @@
+1  ls -alh
+2  cat .prevpass 
+3  ls -lah /etc/cron.d
+4  cat /etc/cron.d/*
+5  cat /usr/bin/cronjob_bandit22.sh 
+6  cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+7  contents revealed Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+8  flag === Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI

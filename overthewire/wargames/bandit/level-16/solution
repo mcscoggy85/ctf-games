@@ -1,0 +1,4 @@
+1 nmap -p 31000-32000 localhost --open
+2 openssl s_client -connect localhost:31... -ign_eof (the nmap scan will give you enough information to find the correct port)
+3 Paste the current level password in and you will receive a private key for level 17. I will omit the private key from the repo to not make it public sorry...
+

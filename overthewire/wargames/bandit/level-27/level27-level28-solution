@@ -1,0 +1,10 @@
+1  mktemp -d
+2  cd /tmp/tmp.6fQ5QXRy7n
+3  git clone ssh://bandit27-git@localhost/home/bandit27-git/repo
+4  ll
+5  ls
+6  cd repo/
+7  ls
+8  cat README
+9  contents of README reveled The password to the next level is: 0ef186ac70e04ea33b4c1853d2526fa2
+10 flag === 0ef186ac70e04ea33b4c1853d2526fa2

@@ -1,0 +1,51 @@
+1  mktemp -d
+2  cd /tmp/tmp.sWRQt6YFYM
+3  git clone ssh://bandit29-git@localhost/home/bandit29-git/repo
+5  ls
+6  cd repo/
+7  ls
+8  cat README.md 
+9  git log
+11  git diff e887a99c384fce53981b25a56a06e460d5399a96 8900db12297176481b3b1ff6ddb76387e67bfed1
+14  alias ll='ls -alh'
+15  ll
+16  cd .git/
+17  ll
+18  cat description 
+19  cat config 
+20  cd..
+21  git
+22  git status
+23  git diff
+24  git log
+25  git branch
+26  git remote
+27  git pull --rebase origin
+28  cd ..
+29  git pull --rebase origin
+30  git branch -a
+31  git checkout remotes/origin/sploits-dev
+32  git log 
+33  git show 0f8115724f18a195395e937e6183bb2c2c76b3bc
+34  diff --git a/exploits/horde5.md b/exploits/horde5.md
+35  ll
+36  cd exploits/
+37  ll
+38  cat horde5.md 
+39  git log
+40  git checkout remotes/origin/dev
+41  git log
+42  cd ..
+43  ll
+44  git log
+45  cd code/
+46  ll
+47  cat gif2ascii.py 
+48  vi gif2ascii.py 
+49  git log 
+50  git show e887a99c384fce53981b25a56a06e460d5399a96
+51  diff --git a/README.md b/README.md
+52  cd ..
+53  ll
+54  cat README.md
+55  contents revealed 5b90576bedb2cc04c86a9e924ce42faf

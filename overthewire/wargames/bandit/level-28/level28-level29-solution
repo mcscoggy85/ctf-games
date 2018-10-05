@@ -1,0 +1,22 @@
+1  mktemp -d
+2  cd /tmp/tmp.yPG19dxbUn
+3  git clone ssh://bandit28-git@localhost/home/bandit28-git/repo
+4  ls
+5  cd repo/
+6  ls
+7  cat README.md 
+8  contents 
+   # Bandit Notes
+	Some notes for level29 of bandit.
+
+	## credentials
+
+	- username: bandit29
+	- password: xxxxxxxxxx
+9 lets look at the git logs
+10 there are three logs
+11 git diff 027e277a9f5c4fdc0d1427b1e11003d1059ca66b c3e31af89c5448edfe4cf573976992edf1c9e6d3
+12 the contents reveal a TBD message for password
+13 git diff 027e277a9f5c4fdc0d1427b1e11003d1059ca66b 65e7e214518a9702681f8664541f3ac1cd7f97fc 
+14 the contents reveal a bbc96594b4e001778eee9975372716b2
+15 flag === bbc96594b4e001778eee9975372716b2

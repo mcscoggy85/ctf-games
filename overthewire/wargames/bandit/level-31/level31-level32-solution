@@ -1,0 +1,11 @@
+1 clone down repo
+2 cat README
+3 follow instructions in readme file
+4 delete contents of .gitignore
+4 git add .
+5 git commit -m "give a message"
+6 git push
+
+when you push the conents reveal the password to level 32 56a9bf19c63d650ce78e6ec0354ee45e
+
+7 flag === 56a9bf19c63d650ce78e6ec0354ee45e

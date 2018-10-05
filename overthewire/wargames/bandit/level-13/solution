@@ -1,0 +1,6 @@
+1 ls
+2 use ssh private key to login to the bandit14 user using the following command:
+	"ssh -i sshkey.private bandit14@localhost"
+3 cat /etc/bandit_pass/bandit14
+4 contents of bandit14 === 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+5 flag === 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e

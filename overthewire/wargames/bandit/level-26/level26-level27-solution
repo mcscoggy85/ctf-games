@@ -1,0 +1,25 @@
+1 This one was tricky. The first thing that level 26 says is the shell is not normal. Ok lets
+  check the shell for bandit26
+2 from bandit25 "cat /etc/passwd | grep bandit26"
+3 the shell is actually a shell script getting executed during login
+4 check permissions and its unfortunatley run as root, so no changing the file contents
+5 cat the file contents
+6 the contents is running a command called more to a text file in bandit26 home then immediatley 
+  exits when done. The issue here is it buffers so quickly you cant read it. Here you should blow 
+  up your terminal size and shrink the window so it can only buffer partial of the file.
+7 ok we can see the file but what can we do now
+8 man more from local term
+9 in man pages you can run a shell command!!
+10 try running shell command....no go...its because well that user doesn't have a shell assigned to it
+   it has a shell script assigned as the shell so it can not run shell commands from the more display.
+11 man more again
+12 you can send the contents of the more output to an editor and the default editor is vi, awesome!
+13 what can vi do
+14 man vi
+15 you can temporarily set a new shell env for a user while in vi
+16 set shell=/bin/bash
+17 now you can run the command sh in vi to drop to a real shell env
+18 ls we see another setuid command that can run commands as user bandit27 awesome lets run it
+19 bandit27-do cat /etc/bandit_pass/bandit27......BOOM
+20 contents of bandit27 revealed 3ba3118a22e93127a4ed485be72ef5ea
+21 flag === 3ba3118a22e93127a4ed485be72ef5ea

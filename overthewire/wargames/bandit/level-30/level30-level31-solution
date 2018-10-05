@@ -1,0 +1,33 @@
+1  mktemp -d
+    2  cd /tmp/tmp.fvwmdTL3Zo
+    3  git clone ssh://bandit30-git@localhost/home/bandit30-git/repo
+    4  ls
+    5  alias ll='ls -alh''
+    6  alias ll='ls -alh'
+    7  ll
+    8  cd repo/
+    9  ;;
+   10  ll
+   11  cat README.md 
+   12  ll
+   13  git log
+   14  git branch -a
+   15  git checkout remotes/origin/master
+   16  git loh
+   17  git log
+   18  ll
+   19  cd .git/
+   20  ll
+   21  cd logs/
+   22  ll
+   23  cat HEAD 
+   24  git show
+   25  cd ..
+   26  ll
+   27  cat description 
+   28  cat HEAD 
+   29  cat packed-refs 
+   30* git show remotes/origin/maste
+   31  git show f17132340e8ee6c159e0a4a6bc6f80e1da3b1aea
+   32  contents revealed 47e603bb428404d265f59c42920d81e5
+   33  flag === 47e603bb428404d265f59c42920d81e5

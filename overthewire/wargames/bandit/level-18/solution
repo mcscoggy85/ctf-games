@@ -1,0 +1,3 @@
+1 sshpass -f ../level-17/flag ssh bandit18@bandit.labs.overthewire.org -p 2220 'cat readme'
+2 contents of file revealed IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+3 flag === IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x

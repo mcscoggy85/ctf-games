@@ -1,0 +1,5 @@
+1 connect to level 20 twice, once in two different terminals
+2 start netcat server
+3 nc lvp 2424 then paste contents of level 20 flag in server
+4 execute binary to port from nc server and contents reveal gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+5 flag === gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr

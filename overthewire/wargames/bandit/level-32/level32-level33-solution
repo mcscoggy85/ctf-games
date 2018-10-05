@@ -1,0 +1,4 @@
+1 the first thing that happens is you get automatically dropped into an uppercase shell.
+2 every regular commands were not working so I started trying environment variables starting with $0
+  invoking the first argument of the script. It actually drops you to a regular /bin/sh just without a prompt3 from here you can just can bandit33 password
+4 flag === c9c3199ddf4121b10cf581a98d51caee
